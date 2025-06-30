@@ -51,7 +51,7 @@ const AddMoney = () => {
       });
 
       // Log transaction in external backend
-      await fetch("http://localhost:8000/api/wallet/transaction", {
+      await fetch("https://car-bike-rental-app.onrender.com/api/wallet/transaction", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
