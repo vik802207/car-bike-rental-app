@@ -64,7 +64,7 @@ const TransactionHistory = () => {
 
       try {
         const res = await fetch(
-          `http://localhost:8000/api/all/transactions/${user.uid}`
+          `https://car-bike-rental-app.onrender.com/api/all/transactions/${user.uid}`
         );
         const mongoData = await res.json();
         setMongoTransactions(
