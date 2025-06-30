@@ -1,0 +1,85 @@
+.profile-container {
+  max-width: 500px;
+  margin: 60px auto;
+  padding: 24px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: #333;
+}
+
+.profile-label {
+  display: block;
+  margin-top: 16px;
+  font-weight: 500;
+  color: #555;
+}
+
+.profile-input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 6px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.profile-image-wrapper {
+  margin-top: 16px;
+  text-align: center;
+}
+
+.profile-image {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #ddd;
+}
+
+.profile-count {
+  margin-top: 20px;
+  font-weight: 500;
+  color: #333;
+}
+
+.profile-message {
+  margin-top: 14px;
+  color: green;
+  font-weight: 500;
+}
+
+.profile-button {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  margin-top: 18px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.update-button {
+  background-color: #007bff;
+  color: white;
+}
+
+.update-button:hover {
+  background-color: #0056b3;
+}
+
+.logout-button {
+  background-color: #dc3545;
+  color: white;
+}
+
+.logout-button:hover {
+  background-color: #c82333;
+}

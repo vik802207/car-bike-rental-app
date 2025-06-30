@@ -1,0 +1,271 @@
+.bank-section {
+  background: #f9fbfd;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+.bank-section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.add-card-btn {
+  background-color: #111;
+  color: #fff;
+  padding: 8px 16px;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  border: none;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+}
+
+.bank-card-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.bank-card {
+  background: #111;
+  color: #fff;
+  padding: 20px;
+  border-radius: 16px;
+  width: 320px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  position: relative;
+  background-size: cover;
+  background-position: center;
+}
+
+.bank-card-icon {
+  font-size: 28px;
+  margin-right: 10px;
+  color: #ffffff;
+}
+
+.bank-card-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.bank-card-number {
+  font-size: 20px;
+  margin: 16px 0;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+
+.bank-card-bottom {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.labelicon {
+  font-size: 12px;
+  color: #ff00ff;
+  font-weight: 600;
+}
+
+.value {
+  color: #fff;
+  font-size: 14px;
+}
+/* Container backdrop */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+/* Modal box */
+.modal-content {
+  background-color: #fff;
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3);
+  width: 90%;
+  max-width: 500px;
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    transform: scale(0.95);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.modal-content h3 {
+  margin-bottom: 20px;
+  font-size: 22px;
+  text-align: center;
+  color: #333;
+}
+
+.modal-content input {
+  width: 100%;
+  padding: 12px 15px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 15px;
+  transition: border 0.2s;
+}
+
+.modal-content input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+/* Buttons */
+.modal-content button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #007bff;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.modal-content button:hover {
+  background-color: #0056b3;
+}
+
+/* Cancel button */
+.modal-content button:last-child {
+  background-color: #dc3545;
+  margin-top: 8px;
+}
+
+.modal-content button:last-child:hover {
+  background-color: #c82333;
+}
+.card-menu {
+  position: relative;
+  margin-left: auto;
+  cursor: pointer;
+  padding: 4px;
+  color: white;
+}
+
+.menu-dropdown {
+  position: absolute;
+  right: 0;
+  top: 24px;
+  background: #1a1a1a;
+  border: 1px solid #333;
+  padding: 6px 10px;
+  border-radius: 6px;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-dropdown p {
+  color: #fff;
+  margin: 5px 0;
+  cursor: pointer;
+}
+
+.menu-dropdown p:hover {
+  color: #ff4d4f;
+}
+.menu-wrapper {
+  position: relative;
+  margin-left: auto;
+}
+
+.menu-icon {
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.menu-options {
+  position: absolute;
+  top: 24px;
+  right: 0;
+  background: #E1F5FE;
+  border-radius: 5px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  overflow: hidden;
+}
+
+.menu-options button {
+  display: block;
+  width: 100%;
+  padding: 6px 12px;
+  background: none;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.menu-options button:hover {
+  background-color: #eee;
+}
+.total-earning-box {
+  background: #e8f5e9;
+  padding: 12px 18px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  display: inline-block;
+  margin: 10px 0;
+}
+.earnings-card {
+  background-color: #e8e7e7;
+  color: #0f0e0e;
+  padding: 20px 24px;
+  border-radius: 16px;
+  width: 250px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  margin: 20px 0;
+  position: relative;
+  transition: transform 0.3s ease;
+}
+
+.earnings-card:hover {
+  transform: translateY(-5px);
+}
+
+.earnings-title {
+  font-size: 14px;
+  color: #2e2d2d;
+  margin-bottom: 8px;
+}
+
+.earnings-amount {
+  font-size: 28px;
+  font-weight: bold;
+  color: #010101;
+  margin-bottom: 6px;
+}
+
+.earnings-subtext {
+  font-size: 13px;
+  color: #484848;
+}
+
+

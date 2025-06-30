@@ -1,0 +1,108 @@
+.booking-table {
+  width: 100%;
+  max-width: 1300px;
+  margin: 30px auto;
+  background: #fff;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+  font-family: 'Segoe UI', sans-serif;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.booking-wrapper {
+  padding: 20px;
+  max-width: 100%;
+}
+
+.booking-controls {
+  display: inline-flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.booking-controls input,
+.booking-controls select {
+  padding: 10px 14px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  flex: 1;
+  min-width: 180px;
+  font-size: 14px;
+}
+
+.booking-table::-webkit-scrollbar {
+  display: none;
+}
+
+.booking-header,
+.booking-row {
+  display: grid;
+  grid-template-columns: 2fr 1.5fr 1.2fr 1.2fr 1fr;
+  list-style: none;
+  padding: 20px 30px;
+  margin: 0;
+  align-items: center;
+}
+
+.booking-header {
+  background: #1f2937;
+  color: #fff;
+  font-weight: 600;
+  font-size: 17px;
+}
+
+.booking-row {
+  background: #f9fafb;
+  border-top: 1px solid #e5e7eb;
+  color: #374151;
+  transition: background 0.2s ease;
+}
+
+.booking-row:hover {
+  background: #f1f5f9;
+}
+
+.vehicle-cell {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.vehicle-img {
+  width: 50px;
+  height: 38px;
+  object-fit: cover;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.cost {
+  font-weight: bold;
+  color: #15803d;
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 16px;
+  gap: 12px;
+}
+
+.pagination button {
+  padding: 8px 14px;
+  border: none;
+  background-color: #2b63f9;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.pagination button:disabled {
+  background-color: #aaa;
+  cursor: not-allowed;
+
+}
+

@@ -1,0 +1,173 @@
+.dashboard-container {
+  padding: 2rem;
+  background-color: #f8f9fa;
+  font-family: "Segoe UI", sans-serif;
+  min-height: 100vh;
+}
+
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dashboard-actions {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.dashboard-actions input {
+  padding: 6px 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.stat-card {
+  background: white;
+  border-radius: 10px;
+  padding: 1.5rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+.stat-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.stat-title {
+  font-weight: 500;
+  color: #333;
+}
+
+.stat-icon {
+  font-size: 20px;
+  color: #4a4a4a;
+}
+
+.stat-value {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0.8rem 0;
+}
+
+.stat-change {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.stat-change.positive {
+  color: #2ecc71;
+}
+
+.stat-change.negative {
+  color: #e74c3c;
+}
+.joink {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+
+.reservation-card,
+.chart-card {
+  flex: 1;
+  min-width: 350px;
+  background: white;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 16px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.reservation-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.reservation-row {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  gap: 10px;
+  padding: 8px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.profile-img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.res-name {
+  font-weight: 500;
+  color: #333;
+}
+
+.res-time,
+.res-table,
+.res-people,
+.res-status {
+  color: #666;
+  font-size: 14px;
+}
+
+.res-status {
+  color: #2ecc71;
+  font-weight: 500;
+}
+
+.edit-icon {
+  cursor: pointer;
+  color: #666;
+  font-size: 14px;
+}
+.chart-card {
+  background: white;
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  margin-bottom: 24px;
+}
+
+.chart-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.toggle-buttons {
+  display: flex;
+  gap: 8px;
+}
+
+.toggle-buttons button {
+  padding: 6px 14px;
+  border-radius: 6px;
+  font-size: 12px;
+  border: none;
+  background: #f3f4f6;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.toggle-buttons .active {
+  background: #111827;
+  color: white;
+}
+
+

@@ -1,0 +1,86 @@
+.add-vehicle-container {
+  max-width: 600px;
+  margin: 60px auto;
+  padding: 30px 40px;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(12px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  font-family: "Segoe UI", sans-serif;
+}
+
+.form-title {
+  font-size: 26px;
+  font-weight: 700;
+  color: #333;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.add-vehicle-form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.add-vehicle-form input,
+.add-vehicle-form select,
+.add-vehicle-form button {
+  padding: 12px 15px;
+  font-size: 15px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  transition: all 0.3s ease;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.add-vehicle-form input:focus,
+.add-vehicle-form select:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.2);
+}
+
+.add-vehicle-form button {
+  background: linear-gradient(to right, #007bff, #00bcd4);
+  color: white;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.add-vehicle-form button:hover {
+  background: linear-gradient(to right, #0056b3, #0097a7);
+  transform: translateY(-1px);
+  box-shadow: 0 6px 20px rgba(0, 123, 255, 0.3);
+}
+
+.add-vehicle-form button:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+  box-shadow: none;
+}
+
+.add-vehicle-form label {
+  font-weight: 600;
+  margin-bottom: 5px;
+  display: block;
+  color: #222;
+}
+
+.add-vehicle-form .info-button {
+  background: #ffc107;
+  color: #000;
+  border: none;
+  font-weight: 500;
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.add-vehicle-form .info-button:hover {
+  background: #e0a800;
+}
