@@ -13,6 +13,9 @@ app.use(express.json());
 app.use(cors());
 
 connectDB();
+app.get('/', (req, res) => {
+  res.send('Backend is running');
+});
 app.use("/api",Booking);
 app.use("/api/wallet",walletRoutes);
 app.use("/api/all",WalletHistory);
