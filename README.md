@@ -78,3 +78,4 @@ Admins can upload a vehicle using the form with the following fields:
 
 ---
 ✨ Screenshots
+![Alt text](https://github.com/vik802207/Micro-Collection-Partner-MCP-System/blob/main/img/Screenshot%20(343).png?raw=true)
