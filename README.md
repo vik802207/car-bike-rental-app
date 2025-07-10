@@ -36,7 +36,25 @@ A modern web application to rent cars and bikes, with support for user authentic
 - 📈 Dashboard with Charts & Stats
 
 ---
+## 📽️ **Demo Video**: [Watch on Google Drive](https://drive.google.com/file/d/1_hTqwDtwGus68vguFbPhGjLkZ3aWVLBV/view?usp=sharing)  
 
+## 🔗 Live On Netlify
+## 👉 [![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen?style=for-the-badge)](https://magical-cat-74ec58.netlify.app/)
+---
+### 📦 Folder Structure
+```bash
+src/
+├── components/
+├── pages/
+│   ├── Home.jsx
+│   ├── Login.jsx
+│   ├── VehicleDetails.jsx
+│   ├── AdminDashboard.jsx
+│   └── ...
+├── context/     
+├── utils/      
+└── firebase.js
+```
 ## 🔧 Project Setup
 
 ### 1. Clone the Repo
@@ -154,13 +172,26 @@ Admins can upload a vehicle using the form with the following fields:
 ![Alt text](https://github.com/vik802207/car-bike-rental-app/blob/main/img/Screenshot%20(718).png?raw=true)
 ![Alt text](https://github.com/vik802207/car-bike-rental-app/blob/main/img/Screenshot%20(719).png?raw=true)
 ---
-### DataBase
+## DataBase
+---
 ![Alt text](https://github.com/vik802207/car-bike-rental-app/blob/main/img/Screenshot%20(720).png?raw=true)
 ![Alt text](https://github.com/vik802207/car-bike-rental-app/blob/main/img/Screenshot%20(721).png?raw=true)
 ![Alt text](https://github.com/vik802207/car-bike-rental-app/blob/main/img/Screenshot%20(722).png?raw=true)
 ![Alt text](https://github.com/vik802207/car-bike-rental-app/blob/main/img/Screenshot%20(723).png?raw=true)
 ![Alt text](https://github.com/vik802207/car-bike-rental-app/blob/main/img/Screenshot%20(724).png?raw=true)
 ![Alt text](https://github.com/vik802207/car-bike-rental-app/blob/main/img/Screenshot%20(725).png?raw=true)
+
+
+
+## 🤝 Contributing
+Pull requests are welcome. For major changes, open an issue first to discuss what you would like to change.
+
+## 📜 License
+This project is licensed under the MIT License.
+
+## 👨‍💻 Author
+Developed by Vikash Gupta
+📧 Contact: vikashg802207@gmail.com
 
 
 
