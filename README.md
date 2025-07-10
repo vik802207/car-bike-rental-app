@@ -1,70 +1,80 @@
-# Getting Started with Create React App
+# 🚗 Car-Bike Rental App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern web application to rent cars and bikes, with support for user authentication, admin uploads, booking system, wallet transactions, and filtering vehicles by location, price, and type.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🛠️ Tech Stack
 
-### `npm start`
+- **Frontend**: React, Tailwind CSS, Syncfusion UI
+- **Backend**: Firebase Firestore (NoSQL)
+- **Authentication**: Firebase Auth (Email/Password, Google, Phone OTP)
+- **Image Hosting**: ImageBB
+- **Payment**: Razorpay Wallet Top-up
+- **State Management**: React Context API
+- **Deployment**: Vercel / Netlify
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🔑 Features
 
-### `npm test`
+### 👤 User Side
+- 🔐 Sign Up / Login (Email, Phone OTP, Google)
+- 📃 Profile Management
+- 🔍 Browse Cars & Bikes
+- 🧭 Filter by City, Price, Type, Features
+- 📸 View Vehicle Details with Photos, Features
+- 📆 Book for Specific Date/Time Range
+- 💳 Wallet Top-up (Razorpay Integration)
+- 📜 View Bookings & Transactions History
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 🛠️ Admin Panel
+- 🚗 Add New Vehicle (form with image URL)
+- ✏️ Edit / 🗑️ Delete Vehicle
+- 🗂️ View All Bookings
+- 💰 View Wallet Transactions
+- 📈 Dashboard with Charts & Stats
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🔧 Project Setup
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 1. Clone the Repo
+```bash
+git clone https://github.com/your-username/car-bike-rental.git
+cd car-bike-rental
+2. Install Dependencies
+npm install
+4. Run Locally
+npm start
+```
+## 🚗 Admin Vehicle Upload Format
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Admins can upload a vehicle using the form with the following fields:
 
-### `npm run eject`
+| Field              | Description                                                                 |
+|--------------------|-----------------------------------------------------------------------------|
+| 🖼️ **Image URL**     | Direct image link (e.g., from [imgbb.com](https://imgbb.com/))              |
+| 🏷️ **Brand & Model** | Example: "Honda City", "Yamaha R15"                                         |
+| 💰 **Price/Day**      | Numeric value (e.g., `500` per day or `30` per hour)                        |
+| 🏙️ **City**           | Location of the vehicle (e.g., `Delhi`, `Mumbai`)                          |
+| 🚘 **Type**           | Choose between `Car` or `Bike`                                             |
+| ⛽ **Fuel Type**      | `Petrol`, `Diesel`, or `Electric`                                          |
+| ❄️ **AC**             | Yes / No                                                                   |
+| ⚙️ **Transmission**   | `Manual` or `Automatic`                                                     |
+| 🪑 **Seats**          | Number of seats (e.g., `2`, `5`, `7`)                                       |
+| 📅 **Availability**   | Select **Start Date** and **End Date** for availability                    |
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+> ✅ All fields are required unless marked optional. Admin must ensure valid data input and image links.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### 🔗 Example Image Upload (via imgbb)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1. Go to [imgbb.com](https://imgbb.com/)
+2. Upload your image.
+3. Copy the **Direct Link** URL (ends in `.jpg`, `.png`, etc.).
+4. Paste it into the **Image URL** field.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+✨ Screenshots
