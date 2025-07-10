@@ -158,6 +158,9 @@ Admins can upload a vehicle using the form with the following fields:
 ![Alt text](https://github.com/vik802207/car-bike-rental-app/blob/main/img/Screenshot%20(720).png?raw=true)
 ![Alt text](https://github.com/vik802207/car-bike-rental-app/blob/main/img/Screenshot%20(721).png?raw=true)
 ![Alt text](https://github.com/vik802207/car-bike-rental-app/blob/main/img/Screenshot%20(722).png?raw=true)
+![Alt text](https://github.com/vik802207/car-bike-rental-app/blob/main/img/Screenshot%20(723).png?raw=true)
+![Alt text](https://github.com/vik802207/car-bike-rental-app/blob/main/img/Screenshot%20(724).png?raw=true)
+![Alt text](https://github.com/vik802207/car-bike-rental-app/blob/main/img/Screenshot%20(725).png?raw=true)
 
 
 
