@@ -39,7 +39,7 @@ A modern web application to rent cars and bikes, with support for user authentic
 ## 📽️ **Demo Video**: [Watch on Google Drive](https://drive.google.com/file/d/1_hTqwDtwGus68vguFbPhGjLkZ3aWVLBV/view?usp=sharing)  
 
 ## 🔗 Live On Netlify
-## 👉 [![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen?style=for-the-badge)](https://magical-cat-74ec58.netlify.app/)
+## 👉 [![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen?style=for-the-badge)](https://car-bike-rental-app.netlify.app/)
 ---
 ### 📦 Folder Structure
 ```bash
